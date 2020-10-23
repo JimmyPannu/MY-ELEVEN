@@ -1,1 +1,19 @@
-<h1>hello world</h1>
+<h1>My eleven</h1>
+
+
+<a href="/players/new">add new player</a>
+
+<% players.each do |player| %>
+
+
+
+    <p>
+        <a href="/players/<%= player["id"] %>">
+            <%= player["name"] %>
+        </a>
+    </p>
+
+    <img src="<%= player["image_url"] %>">
+
+<% end %>
+

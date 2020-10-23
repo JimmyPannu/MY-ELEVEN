@@ -1,0 +1,25 @@
+<h1>Edit Player form</h1>
+
+
+<form action="/players/<%= player['id'] %>" method='post'>
+
+    <input type="hidden" name="_method" value="patch">
+
+    <label for="">name</label>
+    <input type="text" name="name" value="<%= player['name'] %>">
+
+    <label for="">image url</label>
+    <input type="text" name="image_url" value="<%= player['image_url'] %>">
+
+    <label for="">age</label>
+    <input type="integer" name="age" value="<%= player['age'] %>">
+
+    <label for="">team</label>
+    <input type="text" name="team" value="<%= player['team'] %>">
+
+    <label for="">playing role</label>
+    <input type="text" name="playing_role" value="<%= player['playing_role'] %>">
+
+    <button>update</button>
+
+</form>

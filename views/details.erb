@@ -1,0 +1,14 @@
+<h1>Details for <%= player['name'] %></h1>
+<h2>Age = <%= player['age'] %></h2>
+<h2>Team = <%= player['team'] %></h2>
+<h2>Playing role = <%= player['playing_role'] %></h2>
+
+<form action="/players/<%= player['id'] %>" method="post">
+
+    <input type="hidden" name="_method" value="delete">
+
+    <button>Delete</button>
+
+</form>
+
+<a href="/players/<%= player['id'] %>/edit">edit</a>
