@@ -3,7 +3,7 @@ require 'sinatra'
 require 'sinatra/reloader' if development?
 require 'pg'
 require 'bcrypt'
-require_relative 'db/data_access.rb' if development?
+require_relative 'db/data_access.rb'
 enable :sessions
 
 def logged_in?()
