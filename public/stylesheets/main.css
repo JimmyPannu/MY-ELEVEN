@@ -1,0 +1,33 @@
+body {
+
+    background-image: url("https://wallpaperaccess.com/full/2302746.jpg");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: whitesmoke;
+
+}
+
+a {
+    color: gold;
+}
+
+p {
+    color: gold;
+}
+
+h1 {
+    color: gold;
+}
+h2 {
+    color: gold;
+}
+button {
+    color: black;
+}
+
+label {
+    color: lightgoldenrodyellow;
+}
