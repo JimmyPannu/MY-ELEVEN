@@ -98,7 +98,6 @@ patch '/players/:id' do
 end
 
 get '/login' do
-
   erb :login
 
 end
