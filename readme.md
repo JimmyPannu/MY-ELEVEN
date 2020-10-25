@@ -7,7 +7,7 @@ An app based on cricket designed to create your own best eleven fantasy team.
 This is my first full-stack database backed application. This application is built wth sinatra and sql has been used to create database and to store data. Technologies used were Postgress, sinatra, Bcrypt. Languages used html,css,ruby.
 
 Below is the link for my wireframe sketch...
-<iframe style="border:none" width="800" height="450" src="https://whimsical.com/embed/GMaPXmsioykxoCVxXMRZ9d"></iframe>
+https://whimsical.com/GMaPXmsioykxoCVxXMRZ9d
 
 
 Below is the link to my app...
